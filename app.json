@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "sdkVersion": "20.0.0",
+    "name": "聚卡",
+    "icon": "http://otqt5krhr.bkt.clouddn.com/vip-icon.png",
+    "version": "1.0.0",
+    "slug": "vip",
+    "ios": {
+      "bundleIdentifier": "com.juka.vip"
+    },
+    "android": {
+      "package": "com.juka.vip"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "vapp",
+  "version": "0.1.0",
+  "description": "聚卡App",
+  "author": {
+    "name": "icoding",
+    "email": "quany@live.com"
+  },
+  "private": true,
+  "devDependencies": {
+    "babel-plugin-import": "^1.2.1",
+    "jest-expo": "~18.0.0",
+    "react-native-scripts": "^1.3.1",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "node scripts/custom-rn-theme && react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "antd-mobile": "^1.6.0",
+    "axios": "^0.16.2",
+    "dva-core": "^0.1.3",
+    "expo": "^20.0.0",
+    "native-base": "^2.3.1",
+    "react": "^16.0.0-alpha.12",
+    "react-native": "^0.47.1",
+    "react-native-easy-grid": "^0.1.15",
+    "react-native-image-picker": "^0.26.3",
+    "react-native-qrcode": "^0.2.6",
+    "react-native-root-toast": "^1.1.2",
+    "react-native-vector-icons": "^4.0.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.6"
+  }
+}
